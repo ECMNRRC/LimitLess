@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/avalon-framework-4.1.4.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/barcode4j.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/com.ibm.ws.sib.server.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/commons-beanutils-1.8.3.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/commons-codec-1.7.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/commons-codec-1.8.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/commons-configuration-1.7.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/commons-digester-1.8.1.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/commons-fileupload-1.3.1.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/commons-jxpath-1.2.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/data.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/j2ee.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/Jace.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/jackson-all-1.9.9.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/navigatorAPI.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/p8cel10n.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/p8cjares.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/pe.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/pe3pt.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/peResources.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/qrgen-1.0.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/zxing-core-1.7.jar"/>
+	<classpathentry kind="lib" path="/MoamalatPlugin/lib/zxing-j2se-1.7.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

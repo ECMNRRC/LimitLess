@@ -1,0 +1,106 @@
+<div>
+
+	<div>
+	
+		<button data-dojo-type="dijit/form/Button"  label="Load Demo" 
+		data-dojo-attach-event="onClick: loadDemo"></button>
+
+			<button data-dojo-type="dijit/form/Button"  label="Load Vue" 
+		data-dojo-attach-event="onClick: loadVue"></button>
+
+	</div>
+
+    <div data-dojo-type="dijit/layout/TabContainer" style="width: 100%; height: 80%;" doLayout="false">
+    
+        <div data-dojo-type="dijit/layout/ContentPane" style="width: 100%; height: 100%;" title="ChartJs" data-dojo-props="selected:true">
+
+			<canvas id="myChart" ></canvas>
+
+        </div>
+        
+        <div data-dojo-type="dijit/layout/ContentPane" style="width: 100%; height: 100%;" title="Apexcharts" data-dojo-props="closable:true">
+
+			<div id="chart"></div>
+
+        </div>
+        
+        <div data-dojo-type="dijit/layout/ContentPane" style="width: 100%; height: 100%;" title="My last tab">
+
+
+			<div id="toPDF" style="width: 150px;">
+				<h2>HTML Table</h2>
+				
+				<table>
+				  <tr>
+				    <th>Company</th>
+				    <th>Contact</th>
+				    <th>Country</th>
+				  </tr>
+				  <tr>
+				    <td>Alfreds Futterkiste</td>
+				    <td>Maria Anders</td>
+				    <td>Germany</td>
+				  </tr>
+				  <tr>
+				    <td>Centro comercial Moctezuma</td>
+				    <td>Francisco Chang</td>
+				    <td>Mexico</td>
+				  </tr>
+				  <tr>
+				    <td>Ernst Handel</td>
+				    <td>Roland Mendel</td>
+				    <td>Austria</td>
+				  </tr>
+				  <tr>
+				    <td>Island Trading</td>
+				    <td>Helen Bennett</td>
+				    <td>UK</td>
+				  </tr>
+				  <tr>
+				    <td>Laughing Bacchus Winecellars</td>
+				    <td>Yoshi Tannamuri</td>
+				    <td>Canada</td>
+				  </tr>
+				  <tr>
+				    <td>Magazzini Alimentari Riuniti</td>
+				    <td>Giovanni Rovelli</td>
+				    <td>Italy</td>
+				  </tr>
+				</table>			
+			</div>
+
+
+        </div>
+        
+      	<div data-dojo-type="dijit/layout/ContentPane" style="width: 100%; height: 100%;" title="Vue" data-dojo-props="closable:true">
+
+	      	<div data-dojo-type="dijit/layout/ContentPane" 
+	      		data-dojo-attach-point="vueApp1" 
+	      		style="width: 100%; height: 100%;" title="Vue App1" data-dojo-props="closable:true">
+	      		app1
+	        </div>        
+
+	      	<div data-dojo-type="dijit/layout/ContentPane" 
+	      		data-dojo-attach-point="vueApp2" 
+	      		style="width: 100%; height: 100%;" title="Vue App2" data-dojo-props="closable:true">
+	      		app2      		
+	        </div>        
+	        
+	      	<div data-dojo-type="dijit/layout/ContentPane" 
+	      		data-dojo-attach-point="vueApp3" 
+	      		style="width: 100%; height: 100%;" title="Vue App3" data-dojo-props="closable:true">
+	        </div>        	        
+        </div>        
+		
+		
+        
+      	<div data-dojo-type="dijit/layout/ContentPane" style="width: 100%; height: 100%;" title="Bootstrap" data-dojo-props="closable:true">
+
+
+        </div>        
+		
+		
+		
+    </div>
+
+</div>
